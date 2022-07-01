@@ -21,7 +21,7 @@ export const userLogin = async (userData: IParams) => {
 		const data = await res.json();
 
 		if (data.status) {
-			localStorage.setItem('userMudy', btoa(JSON.stringify(data)));
+			localStorage.setItem('userMock', btoa(JSON.stringify(data)));
 			return data;
 		}
 
@@ -31,4 +31,4 @@ export const userLogin = async (userData: IParams) => {
 	}
 };
 
-export const userLogout = () => localStorage.removeItem('userMudy');
+export const userLogout = () => localStorage.removeItem('userMock');

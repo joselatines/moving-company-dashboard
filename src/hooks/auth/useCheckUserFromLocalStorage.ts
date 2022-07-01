@@ -7,7 +7,7 @@ export default function useCheckUserFromLocalStorage() {
 	const router = useRouter();
 
 	useEffect(() => {
-		const user = localStorage.getItem('userMudy');
+		const user = localStorage.getItem('userMock');
 		if (!user) {
 			setIsAuth(false);
 			router.push('/login');

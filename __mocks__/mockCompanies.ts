@@ -59,8 +59,8 @@ export const mockCompanies = {
 	],
 	success: true,
 	links: {
-		first: 'https://api-dev.mudy.itsirius.com/api/back-office/companies?page=1',
-		last: 'https://api-dev.mudy.itsirius.com/api/back-office/companies?page=1',
+		first: 'https://example.com/api/back-office/companies?page=1',
+		last: 'https://example.com/api/back-office/companies?page=1',
 		prev: null,
 		next: null,
 	},
@@ -76,7 +76,7 @@ export const mockCompanies = {
 				active: false,
 			},
 			{
-				url: 'https://api-dev.mudy.itsirius.com/api/back-office/companies?page=1',
+				url: 'https://example.com/api/back-office/companies?page=1',
 				label: '1',
 				active: true,
 			},
@@ -86,7 +86,7 @@ export const mockCompanies = {
 				active: false,
 			},
 		],
-		path: 'https://api-dev.mudy.itsirius.com/api/back-office/companies',
+		path: 'https://example.com/api/back-office/companies',
 		per_page: 15,
 		to: 7,
 		total: 7,

@@ -17,7 +17,7 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import { INavLink } from '../../../Layouts/Main';
 import GoBack from '../GoBack';
-import logo from '../../../../public/imgs/logo/mudy-sin-fondo-horizontal.png';
+import logo from '../../../../public/imgs/logo/mock-sin-fondo-horizontal.png';
 import { userLogout } from '../../../services/login';
 import Watermark from '../watermark';
 import { Divider } from '@mui/material';
@@ -47,7 +47,7 @@ export default function ResponsiveDrawer({ window, children, links }: Props) {
 				<div style={{ margin: '0 1rem 1rem' }}>
 					<NextLink href='/dashboard' passHref>
 						<a>
-							<NextImage src={logo} layout='responsive' alt='logo-mudy' />
+							<NextImage src={logo} layout='responsive' alt='logo-mock' />
 						</a>
 					</NextLink>
 				</div>
@@ -102,7 +102,7 @@ export default function ResponsiveDrawer({ window, children, links }: Props) {
 						<MenuIcon />
 					</IconButton>
 					<Typography variant='h6' noWrap component='div'>
-						Mudy panel de control
+						Mock panel de control
 					</Typography>
 				</Toolbar>
 			</AppBar>

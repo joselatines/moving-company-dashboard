@@ -1,4 +1,4 @@
-export const base_url = 'https://api-dev.mudy.itsirius.com/api';
+export const base_url = 'https://example.com/api';
 
 interface IUserLocalStorage {
 	status: boolean;
@@ -21,7 +21,7 @@ interface IUserLocalStorage {
 }
 
 export const getUserFromLocalStorage = (): IUserLocalStorage => {
-	const user = localStorage.getItem('userMudy');
+	const user = localStorage.getItem('userMock');
 
 	if (user) {
 		const decoded = atob(user);

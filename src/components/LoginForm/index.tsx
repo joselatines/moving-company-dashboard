@@ -7,7 +7,7 @@ import { Box, Button, Container, FormControlLabel, Switch, TextField, Typography
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import toast from 'react-hot-toast';
 import { userLogin } from '../../services/login';
-import logo from '../../../public/imgs/logo/mudy-sin-fondo-oscuro.png';
+import logo from '../../../public/imgs/logo/mock-sin-fondo-oscuro.png';
 // Validation
 import { FormikProps, useFormik } from 'formik';
 import * as Yup from 'yup';
