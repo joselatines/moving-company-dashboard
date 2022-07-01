@@ -1,0 +1,9 @@
+POST https://api-dev.mudy.itsirius.com/api/back-office/login
+
+content-type: application/json
+
+{
+    "email": "davidguerraav84@gmail.com",
+    "password": "password",
+    "remember": true
+}
